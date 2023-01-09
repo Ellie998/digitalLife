@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>디지털라이프</title>
+    <!--파비콘-->
+    <link rel="short icon" href="#" />
+    <!--css reset-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css"
+    />
+    <!--google font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <!--css link-->
+    <link rel="stylesheet" href="./css/home.css" />
+  </head>
+  <body>
+    <div id="wrap" class="wrap">
+      <header class="header">
+        <h1>디지로그</h1>
+        <!-- <div class="search">search</div> -->
+      </header>
+      <div class="tablist">
+        <div class="phone">스마트폰</div>
+      </div>
+      <div class="content">
+        <div class="aside services">
+          <div class="search">검색포털</div>
+        </div>
+        <div class="aside manuals">
+          <div class="login">로그인 하는 방법</div>
+          <div class="findID">아이디 찾는 방법</div>
+        </div>
+        <div class="main">
+          <div class="sample_wrap">
+            <input
+              type="text"
+              id="id"
+              name="id"
+              placeholder="아이디"
+              title="아이디"
+              class="input_text"
+              maxlength="41"
+              value=""
+            />
+            <input
+              type="text"
+              id="pw"
+              name="pw"
+              placeholder="비밀번호"
+              title="비밀번호"
+              class="input_text"
+              maxlength="16"
+              value=""
+            />
+            <!-- <div class="keep_check">
+              <input
+                type="checkbox"
+                id="keep"
+                name="nvlong"
+                class="input_text"
+                value="off"
+              />
+              <label for="nvlong">로그인 상태 유지</label>
+            </div> -->
+            <div class="btn_login_wrap">
+              <button type="submit" class="btn_login" id="log.login">
+                <span class="btn_text">로그인</span>
+                <!-- button 내에 글씨를 넣을 수도 있지만 text css 적용의 편의성을 위해 span으로 따로 뺀듯 -->
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
